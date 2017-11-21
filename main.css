@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: yellow;
+}
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px;
+}
