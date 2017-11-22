@@ -2,33 +2,41 @@
     <body>
         <h1>What Stranger Things Character Are You?</h1>
         
-        <form id="Quiz">
+        <form id="Quiz" action="">
             <p>Please select the decription that most fits you:</p>
             <div>
                 <div>
-                    <input type="radio" id="Choice1" value="text">
+                    <input type="radio" id="Choice1" value="Mike" name="character">
                     <label for="Choice1">I like acting like the leader of my party.</label>
                 </div>
                 <div>
-                    <input type="radio" id="Choice2" value="text">
+                    <input type="radio" id="Choice2" value="Eleven" name="character">
                     <label for="Choice2">I like using my mind powers.</label>
                 </div>
                 <div>
-                    <input type="radio" id="Choice3" value="mail">
+                    <input type="radio" id="Choice3" value="Max" name="character">
                     <label for="Choice3">I like going fast!</label>
                 </div>
+                <div>
+                    <input type="radio" id="Choice4" value="Joyce" name="character">
+                    <label for="Choice3">I will do anything to protect my family.</label>
+                </div>
+                <div>
+                    <input type="radio" id="Choice5" value="Dustin" name="character">
+                    <label for="Choice3">I love taking care of reptiles.</label>
+                </div>
+
         
             </div>
             <div>
-                <button id="SubmitButton" type="submit" onclick="submitQuiz()">Submit</button>
+                <button id="SubmitButton">Submit</button>
             </div>
         </form>
-            <div id="CharacterDiv">
+        <div id="CharacterName"></div>
+        <div id="CharacterPicture"></div>
 
-            </div>
-
-            <link rel="stylesheet" href="main.css">
-            <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"> </script>
-            <script src="main.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"> </script>
+        <script src="main.js"></script>
     </body>
 </html>

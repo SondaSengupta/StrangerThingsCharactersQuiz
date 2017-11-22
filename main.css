@@ -2,6 +2,13 @@ body {
     background-color: black;
     color: yellow;
 }
+
+img {
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+
 h1 {
     text-align: center;
 }
